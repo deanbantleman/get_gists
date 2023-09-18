@@ -5,24 +5,37 @@ Code that will list Github Gists
 
 1. Clone the repo to your local system:
 
+```
   git clone git@github.com:deanbantleman/get_gists.git
+```
 
 2. Change directory into the source code directory:
 
+```
   cd get_gists
+```
 
 3. Create a local python environment:
 
+```
   virtualenv env
+```
 
 4. Source the virtual environment:
 
+```
   . env/bin/activate
+```
 
 5. Check you are executing the correct Python:
 
+```
    which python
+```
 
-6. Install PyGithub:
+6. Install libraries:
 
-  sudo pip install PyGithub
+```
+  sudo pip install pprintpp
+  sudo pip install requests
+```
