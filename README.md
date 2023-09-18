@@ -1,6 +1,9 @@
 # Overview
 Code that will list Github Gists
 
+# Environment
+This code was executed on a Windows 10 machine and the Windows Subsystem for Linux (WSL) was used to host an Ubuntu 20.04.6 execution environment.
+
 # Setup your local environment
 
 1. Clone the repo to your local system:
