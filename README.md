@@ -36,6 +36,6 @@ Code that will list Github Gists
 6. Install libraries:
 
 ```
-  sudo pip install pprintpp
-  sudo pip install requests
+  pip install pprintpp
+  pip install requests
 ```
