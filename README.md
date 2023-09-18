@@ -39,3 +39,11 @@ Code that will list Github Gists
   pip install pprintpp
   pip install requests
 ```
+
+# Running the code
+
+```
+python3 get_gist.py <username>
+# Where <username> is a valid GitHub username.
+# Example: python3 get_gist.pydeanbantleman
+```
