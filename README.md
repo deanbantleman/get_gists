@@ -1,4 +1,4 @@
-# get_gists
+# Overview
 Code that will list Github Gists
 
 # Setup your local environment
