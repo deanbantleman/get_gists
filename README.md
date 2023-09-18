@@ -1,5 +1,5 @@
 # Overview
-Code that will list Github Gists
+This python code will list a users Github public Gists. On the intial run all gists will be pulled down and on subsequent runs only new gists will be pulled down.
 
 # Environment
 This code was executed on a Windows 10 machine and the Windows Subsystem for Linux (WSL) was used to host an Ubuntu 20.04.6 execution environment.
