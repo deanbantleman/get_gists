@@ -48,5 +48,5 @@ This code was executed on a Windows 10 machine and the Windows Subsystem for Lin
 ```
 python3 get_gist.py <username>
 # Where <username> is a valid GitHub username.
-# Example: python3 get_gist.pydeanbantleman
+# Example: python3 get_gist.py deanbantleman
 ```
