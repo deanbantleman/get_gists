@@ -30,13 +30,7 @@ This code was executed on a Windows 10 machine and the Windows Subsystem for Lin
   . env/bin/activate
 ```
 
-5. Check you are executing the correct Python:
-
-```
-   which python
-```
-
-6. Install libraries:
+5. Install libraries:
 
 ```
   pip install pprintpp
