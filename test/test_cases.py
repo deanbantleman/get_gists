@@ -2,8 +2,8 @@ import os
 import json
 import unittest
 import requests_mock
-from pygist import get_gists, save_last_query_time
-
+# from pygist import get_gists, save_last_query_time
+from get_gist import get_gists, save_last_query_time
 
 class MyTestCase(unittest.TestCase):
 
