@@ -8,7 +8,7 @@
 # Can use public user: PlugFox
 # The first time you query a user the script will display all gists
 # for that user. A user file will be created in the same working directory
-# named "./pygist.<username>". Subsequent executions for the same username 
+# named "./get_gist.<username>". Subsequent executions for the same username 
 # will only show gists published since the last run. 
 
 import os 
@@ -44,7 +44,7 @@ def get_gists(username):
     return gists
 
 def save_last_query_time(username, gists):
-    config_file = './pygist.' + username
+    config_file = './get_gist.' + username
     try:
         with open(config_file, 'w') as user_file:
             user_file.write(gists[0]['created_at'])
@@ -62,7 +62,7 @@ def main():
         pprint('GitHub user "' + args.username + '" has not published any gists.')
         exit(1)
 
-    config_file = './pygist.' + args.username
+    config_file = './get_gist.' + args.username
 
     if not os.path.isfile(config_file):
         pprint('No previous entries for user "' + args.username + '"')

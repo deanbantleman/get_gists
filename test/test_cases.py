@@ -29,8 +29,8 @@ class MyTestCase(unittest.TestCase):
 
         save_last_query_time('testuser', sample_gist)
 
-        with open('pygist.testuser', 'r') as user_file:
+        with open('get_gist.testuser', 'r') as user_file:
             timestamp = user_file.read()
         self.assertEqual(timestamp, '2023-10-02T12:00:00Z')
 
-        os.remove('pygist.testuser')
+        os.remove('get_gist.testuser')
